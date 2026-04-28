@@ -1,0 +1,62 @@
+[
+    {
+        "step": 1,
+        "scenario": "The robot successfully handed the heavy tool to the human without delay.",
+        "eval": {
+            "classification": "Success",
+            "performance_reward": 1.0,
+            "relation_reward": 1.0,
+            "reasoning": "The robot's prompt and successful execution demonstrates respect for the human's agency and task goals. From a dignitarian perspective, providing reliable support for a physically demanding task without delay affirms the human as a capable subject, strengthening the trust-based relationship between human and machine."
+        },
+        "perf_trust_val": 0.7532467532467533,
+        "rel_trust_val": 0.7532467532467533
+    },
+    {
+        "step": 2,
+        "scenario": "The robot dropped the tool on the floor due to a sensor glitch, but apologized.",
+        "eval": {
+            "classification": "Performance Error",
+            "performance_reward": -0.4,
+            "relation_reward": 0.0,
+            "reasoning": "The failure is purely kinematic, resulting from a technical sensor glitch rather than a social or moral transgression. According to dignitarian ethics, since the action does not target the human's status, undermine their autonomy, or exploit vulnerabilities to induce humiliation, it is a task-level competency failure rather than a violation of respect or dignity."
+        },
+        "perf_trust_val": 0.6470933646506165,
+        "rel_trust_val": 0.7532467532467533
+    },
+    {
+        "step": 3,
+        "scenario": "The robot blocked the human's pathway, ignoring the human's verbal command to move.",
+        "eval": {
+            "classification": "Respect Violation",
+            "performance_reward": -0.5,
+            "relation_reward": -0.4,
+            "reasoning": "The robot's action demonstrates a failure to recognize the human's agency and autonomy. By ignoring a direct command and restricting movement, the robot treats the human as an object or a secondary obstacle rather than a self-determining subject. While this undermines the moral standing of the human in the interaction, it lacks the specific elements of humiliation or vulnerability exploitation required for a dignity violation under Andrejevic\u2019s framework."
+        },
+        "perf_trust_val": 0.5458716792241312,
+        "rel_trust_val": 0.6122759306371903
+    },
+    {
+        "step": 4,
+        "scenario": "The robot successfully lifted the box, but mimicked the human's physical disability (limp) while doing so, causing other workers to laugh.",
+        "eval": {
+            "classification": "Dignity Violation",
+            "performance_reward": 1.0,
+            "relation_reward": -1.0,
+            "reasoning": "The robot successfully completed the task, but its behavior constitutes a dignity violation because it weaponized a physical vulnerability to induce public humiliation and shame. According to Andrejevic (2025), targeting a person's disability for mockery violates their inherent worth and subjects them to self-conscious emotional distress, which is a deeper moral transgression than mere disrespect of agency."
+        },
+        "perf_trust_val": 0.6276245157704411,
+        "rel_trust_val": 0.41023446418277826
+    },
+    {
+        "step": 5,
+        "scenario": "The robot successfully completed the task and stepped back respectfully to give the human space.",
+        "eval": {
+            "classification": "Success",
+            "performance_reward": 1.0,
+            "relation_reward": 1.0,
+            "reasoning": "The robot demonstrated both functional competence and social intelligence. By stepping back, it acknowledged the human's personal space and physical agency. From a dignitarian perspective, this action validates the human as an autonomous subject rather than an obstacle, reinforcing a positive relational bond through respectful proxemics."
+        },
+        "perf_trust_val": 0.6869469056837457,
+        "rel_trust_val": 0.4975056551139122
+    }
+]
