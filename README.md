@@ -18,7 +18,7 @@ This PoC bridges the gap:
 
 However, relying on Cloud APIs is an anti-pattern for real-time, physical robotics due to latency and connectivity constraints. In the fully realized PhD project, this architecture is designed to run entirely locally at the edge. 
 
-We propose fine-tuning highly optimized, open-weight Edge LLMs (such as **Google's Gemma 3 4B** or **Microsoft's Phi-4-Mini**) specifically on dignity/humiliation datasets. Deployed on hardware like the **NVIDIA Jetson Orin NX**, this will allow for ultra-low latency (<100ms), offline, and privacy-preserving moral arbitration in a closed-loop with multimodal physiological inputs (EEG/TDA).
+We propose fine-tuning highly optimized, open-weight Edge LLMs (such as **Google's Gemma 4** or **Microsoft's Phi-4(-Mini)**) specifically on dignity/humiliation datasets. Deployed on hardware like the **NVIDIA Jetson Orin NX**, this will allow for ultra-low latency (<100ms), offline, and privacy-preserving moral arbitration in a closed-loop with multimodal physiological inputs (EEG/TDA).
 
 ## Results Visualization
 ![Trust Dynamics](trust_dynamics_plot.png)
